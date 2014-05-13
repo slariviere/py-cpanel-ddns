@@ -1,0 +1,8 @@
+cpanel:
+    hostname: example.com 
+    username: user1
+ddns:
+    domain: home.example.com
+    name: home.example.com.
+ip:
+    url: http://ipinfo.io/ip
