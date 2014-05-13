@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import pycpanel, yaml
+import pycpanel, yaml, urllib2
 
 # Read the cpanel hash for the connection
 hashFile = open('cpanel-hash')
@@ -25,6 +25,9 @@ for line in dumpzone['result'][0]['record']:
         if line['name'] == configMap['ddns']['name']:
             break
 
+p = urllib2.urlopen(configMap['ip']['url'])
+ip = p.read();
+print ip
 print line
 
 
