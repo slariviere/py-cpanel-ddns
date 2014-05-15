@@ -8,7 +8,7 @@ Simple python script using the cpanel API to update dns as DDNS provider
 ##Clone the repository
 
 ```bash
-git@github.com:slariviere/py-cpanel-ddns.git && cd py-cpanel-ddns
+git clone git@github.com:slariviere/py-cpanel-ddns.git && cd py-cpanel-ddns
 ```
 
 ##Paste your remote access hash in a new file name cpanel-hash
