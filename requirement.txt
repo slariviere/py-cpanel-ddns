@@ -1,0 +1,3 @@
+PyYAML==3.10
+requests==2.1.0
+pycpanel==0.1.4
